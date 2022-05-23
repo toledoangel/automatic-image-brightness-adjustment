@@ -1,8 +1,10 @@
 # automatic-image-brightness-adjustment
 An automatic adjustment model is developed for brightness adjustment in images.
 
+![results2](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/images_explain/Image2_Comparation.png)
 
 This repository contains the training of a model to automatically adjust the brightness of the photographs given a given dataset. 
+
 
 ## Problema
 A photography studio has thousands of photographs that they take at different events: concerts, conferences, shows, public events, etc. Some photographs are too dark or too bright, so they have to spend time manually adjusting the brightness to an optimal level, by hand, wasting many hours and a lot of precious time that could be spent editing the image in a more interesting way. The studio provides you with a data set with thousands of images that have already been adjusted for brightness, your job is to provide a way to automatically adjust the brightness for new images for the studio.
@@ -42,9 +44,9 @@ The images of the set are considered to be edited and in their final form, so to
 
 For training the dataset was separated into 70% training 30% test. The training was performed with 200 epochs, and a batch size of 10. The input consists of the image in HSV and the gamma value that was modified in V. The training was performed in Google Colab. 
 
-A multilayer perceptron-based model was trained with 150 epochs in and a batch size of 10, obtaining a [model]([#](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/models/multilayerPerceptronModel.h5)) with an accuracy of 66% with respect to the original image. You can review the training in the following [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/train%20notebooks/multilayerperceptron.ipynb).
+A multilayer perceptron-based model was trained with 150 epochs in and a batch size of 10, obtaining a [model]([#](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/models/multilayerPerceptronModel.h5)) with an accuracy of 66% with respect to the original image. You can review the training in the following [file](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/train%20notebooks/multilayerperceptron.ipynb).
 
-Contrasting conv was added to the perceptron model resulting in 50 epochs with a batch size of 10, obtaining a [model]([#](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/models/convPerceptronModel.h5)) with an accuracy of 79% with respect to the original image. You can review the training in the following [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/train%20notebooks/convMultilayerPerceptron.ipynb)
+Contrasting conv was added to the perceptron model resulting in 50 epochs with a batch size of 10, obtaining a [model]([#](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/models/convPerceptronModel.h5)) with an accuracy of 79% with respect to the original image. You can review the training in the following [file](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/train%20notebooks/convMultilayerPerceptron.ipynb)
 
 
 
