@@ -12,7 +12,7 @@ The dataset consists of 8758 images of 128 px x 128 px in RGB format.
 [Dataset](https://www.kaggle.com/code/shruthimshruthim/google-scrapped-image/data?select=images) 
 
 
-If you want to review the training see this [notebook](#) , if you just want to play with the neural network see this [notebook](#).
+If you want to review the training see this [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/tree/main/train%20notebooks) , if you just want to play with the neural network see this [notebook](#).
 
 ## Background information
 
@@ -22,7 +22,7 @@ Different methodologies have been proposed to improve the basic parameters of an
 
 Given the problem can be approached from 3 different points and evaluate the efficiency:
 
-**1) Multilayer conv perceptron for V search in HSV images [notebook](#).**
+**1) Multilayer conv perceptron for V search in HSV images [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/train%20notebooks/Autoencoder.ipynb).**
 
 **2) Autoencoder conv for V recreation in HSV images [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/Autoencoder.ipynb).**
 
