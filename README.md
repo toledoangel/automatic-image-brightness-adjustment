@@ -4,10 +4,11 @@ An automatic adjustment model is developed for brightness adjustment in images.
 
 Este repositorio contiene el entrenamiento de un modelo para poder ajustar automáticamente le brillo de las fotografías dado un dataset determinado. 
 
-##Problema: 
-Un estudio de fotografía tiene miles de fotografías que toman en diferentes eventos: conciertos, conferencias, espectáculos, actos públicos, etc. Algunas fotografías son demasiado oscuras o demasiado brillantes, por lo que tienen que dedicar tiempo a ajustar manualmente el brillo a un nivel óptimo, a mano, perdiendo muchas horas y mucho tiempo precioso que podrían utilizar editando la imagen de forma más interesante. El estudio le proporciona un conjunto de datos con miles de imágenes que ya han sido ajustadas para el brillo, su trabajo es proporcionar una manera de ajustar automáticamente el brillo para las nuevas imágenes para el estudio.
-##Dataset
-El dataset consta de 8758 imágenes de 128 px x 128 px en formato RGB
+## Problema: 
+A photography studio has thousands of photographs that they take at different events: concerts, conferences, shows, public events, etc. Some photographs are too dark or too bright, so they have to spend time manually adjusting the brightness to an optimal level, by hand, wasting many hours and a lot of precious time that could be spent editing the image in a more interesting way. The studio provides you with a data set with thousands of images that have already been adjusted for brightness, your job is to provide a way to automatically adjust the brightness for new images for the studio.
+
+## Dataset
+The dataset consists of 8758 images of 128 px x 128 px in RGB format.
 [Dataset](https://www.kaggle.com/code/shruthimshruthim/google-scrapped-image/data?select=images) 
 
 
