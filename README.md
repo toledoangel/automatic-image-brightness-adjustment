@@ -42,9 +42,15 @@ The images of the set are considered to be edited and in their final form, so to
 
 For training the dataset was separated into 70% training 30% test. The training was performed with 200 epochs, and a batch size of 10. The input consists of the image in HSV and the gamma value that was modified in V. The training was performed in Google Colab. 
 
+A multilayer perceptron-based model was trained with 150 epochs in and a batch size of 10, obtaining a [model]([#](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/models/multilayerPerceptronModel.h5)) with an accuracy of 66% with respect to the original image. You can review the training in the following [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/train%20notebooks/multilayerperceptron.ipynb).
+
+Contrasting conv was added to the perceptron model resulting in 50 epochs with a batch size of 10, obtaining a [model]([#](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/models/convPerceptronModel.h5)) with an accuracy of 79% with respect to the original image. You can review the training in the following [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/train%20notebooks/convMultilayerPerceptron.ipynb)
+
+
+
 #### Results 
 
-The results are favorable with an image output very close to the desired one, giving an accuracy of 60% comparing original RGB image vs. RGB inference.  
+The results are favorable with very close to the desired image output, giving an accuracy of 79% comparing original RGB image vs. RGB inference.  
 
 #### Comments.
 
