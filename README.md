@@ -51,6 +51,7 @@ Contrasting conv was added to the perceptron model resulting in 50 epochs with a
 #### Results 
 
 The results are favorable with very close to the desired image output, giving an accuracy of 79% comparing original RGB image vs. RGB inference.  
+![results](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/images_explain/Image1_Comparation.png)
 
 #### Comments.
 
