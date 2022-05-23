@@ -4,7 +4,7 @@ An automatic adjustment model is developed for brightness adjustment in images.
 
 This repository contains the training of a model to automatically adjust the brightness of the photographs given a given dataset. 
 
-## Problema: 
+## Problema
 A photography studio has thousands of photographs that they take at different events: concerts, conferences, shows, public events, etc. Some photographs are too dark or too bright, so they have to spend time manually adjusting the brightness to an optimal level, by hand, wasting many hours and a lot of precious time that could be spent editing the image in a more interesting way. The studio provides you with a data set with thousands of images that have already been adjusted for brightness, your job is to provide a way to automatically adjust the brightness for new images for the studio.
 
 ## Dataset
