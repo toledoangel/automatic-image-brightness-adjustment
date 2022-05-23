@@ -22,9 +22,9 @@ Different methodologies have been proposed to improve the basic parameters of an
 
 Given the problem can be approached from 3 different points and evaluate the efficiency:
 
-**1) Multilayer conv perceptron for V search in HSV images.**
+**1) Multilayer conv perceptron for V search in HSV images [notebook](#).**
 
-**2) Autoencoder conv for V recreation in HSV images.**
+**2) Autoencoder conv for V recreation in HSV images [notebook](https://github.com/toledoangel/automatic-image-brightness-adjustment/blob/main/Autoencoder.ipynb).**
 
 **3) Convolutional neural networks **
 
